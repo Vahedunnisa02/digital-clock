@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.hero_section {
+    background: url('https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.clock_container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.clock {
+    background-color: #5c6bc0;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 80px;
+}
+
+.time {
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+.label {
+    font-size: 0.9rem;
+}
+
+#ampm {
+    background-color: #4caf50;
+    border-radius: 5px;
+    padding: 10px 20px;
+    min-width: auto;
+}
